@@ -4,26 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Aula 3</title>
+    <title>Aula 4</title>
   </head>
   <body
     class="p-5 bg-[#E5E5E5] w-full h-screen flex justify-center items-center"
   >
     <div class="h-full w-full flex justify-between gap-10 items-center">
       <!-- imagem -->
-      <div class="ml-15">
-        <img class="w-[45rem]" src="img/image.png" alt="" />
+      <div class="ml-10">
+        <img class="w-[13rem]" src="img/image.png" alt="" />
       </div>
 
       <!-- formulario -->
+       
       <div class="h-full bg-white w-[40%] rounded-lg">
         <div class="flex flex-col p-3">
           <div>
-            <h2 class="text-[12px] font-bold">Welcome to</h2>
+            <h2 class="text-[10px] font-bold">Welcome to</h2>
           </div>
           <div>
             <h1 class="text-[#6358DC] font-bold">Design School</h1>
           </div>
+
+          <!-- Mensagem de erro -->
+          <div id="error-message" class="text-red-500 text-[8px] mt-2"></div>
 
           <div class="flex flex-col gap-2 mt-10">
             <input
@@ -48,5 +52,7 @@
         </div>
       </div>
     </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
